@@ -1,0 +1,20 @@
+import React from 'react'
+
+import About from '../about'
+import Collection from '../collection'
+import Hero from './components/hero'
+import Services from './components/services'
+
+const LandingPage = () => {
+  return (
+    <div> 
+        <Hero/>
+        <Services/>
+        <About/>
+        <Collection/>
+    </div>
+  )
+}
+
+export default LandingPage
+
